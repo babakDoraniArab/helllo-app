@@ -1,0 +1,12 @@
+# values.yaml
+appName: "hello-app-babak4"
+image:
+  repository: bablido/my-hello-app-image
+  tag: latest
+service:
+  type: ClusterIP
+  port: 80
+ingress:
+  enabled: true
+  hostSuffix: "dockerhelper.ir"
+  pathType: ImplementationSpecific
